@@ -126,6 +126,12 @@
             });
 
             resultContainer.innerHTML = `You got ${score} out of ${quizData.length} correct!`;
+
+            // Ask for confirmation before closing the window
+            const confirmClose = confirm("Do you want to close the quiz window and return to the main application?");
+            if (confirmClose) {
+                window.close();
+            }
         }
 
         buildQuiz();
