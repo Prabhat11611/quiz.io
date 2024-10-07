@@ -1,0 +1,84 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stButton > button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+}
+
+.stTextInput > div > div > input {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.stRadio > label {
+    font-weight: normal;
+}
+
+.stAlert {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.stAlert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.stAlert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.stAlert.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border-color: #ffeeba;
+}
+
+.stImage > img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    display: block;
+}
+
+.stTitle {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.stSubheader {
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.sidebar .stSelectbox {
+    margin-bottom: 1rem;
+}
+
+.sidebar .stSelectbox > div > div > div {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
